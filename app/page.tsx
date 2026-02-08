@@ -16,13 +16,13 @@ export default function Home() {
       >
         <div className="text-center max-w-3xl mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-6" style={{ fontFamily: 'Source Serif 4' }}>
-            Risk Analysis Made Simple
+            The modern tool for risk management
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            Collaborate with your team securely using the latest HTML5 technology
+            Bowtie360 allows you to analyze and visualize risks in a systematic way - a key component of bow tie analysis.
           </p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg">
-            Start Free Trial
+            Start a free trial!
           </button>
         </div>
       </section>
@@ -82,7 +82,7 @@ export default function Home() {
       {/* Customers Logos Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ fontFamily: 'Source Serif 4' }}>
+          <h2 className="text-3xl font-bold text-center mb-12 text-black" style={{ fontFamily: 'Source Serif 4' }}>
             Trusted by Leading Companies
           </h2>
           <div className="flex justify-center gap-8 overflow-x-auto pb-4">
@@ -236,7 +236,7 @@ export default function Home() {
       {/* Contact Section */}
       <section className="py-16 bg-white">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-8" style={{ fontFamily: 'Source Serif 4' }}>
+          <h2 className="text-4xl font-bold text-center mb-8 text-black" style={{ fontFamily: 'Source Serif 4' }}>
             Get in Touch
           </h2>
           <p className="text-center text-gray-600 mb-8">
