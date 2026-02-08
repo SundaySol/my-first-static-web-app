@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BowTie360 - Your Professional Solution",
-  description: "Professional services for business success",
+  title: "BowTie360 - Risk Analysis & Collaboration Tool",
+  description: "Web-based risk analysis and collaboration platform with 256-bit encryption",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
