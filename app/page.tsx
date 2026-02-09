@@ -159,7 +159,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Evaluation */}
             <div className="border border-gray-300 rounded-lg p-8 hover:shadow-lg transition">
-              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Source Serif 4' }}>Evaluation</h3>
+              <h3 className="text-xl font-bold mb-2 text-black" style={{ fontFamily: 'Source Serif 4' }}>Evaluation</h3>
               <p className="text-3xl font-bold mb-6">Free</p>
               <ul className="space-y-3 mb-8 text-gray-600">
                 <li>✓ Up to 3 projects</li>
@@ -173,7 +173,7 @@ export default function Home() {
 
             {/* Basic */}
             <div className="border-2 border-blue-600 rounded-lg p-8 shadow-lg bg-blue-50">
-              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Source Serif 4' }}>Basic</h3>
+              <h3 className="text-xl font-bold mb-2 text-black" style={{ fontFamily: 'Source Serif 4' }}>Basic</h3>
               <p className="text-3xl font-bold mb-2">$36</p>
               <p className="text-gray-600 mb-6">/month</p>
               <ul className="space-y-3 mb-8 text-gray-600">
@@ -188,7 +188,7 @@ export default function Home() {
 
             {/* Plus */}
             <div className="border border-gray-300 rounded-lg p-8 hover:shadow-lg transition">
-              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Source Serif 4' }}>Plus</h3>
+              <h3 className="text-xl font-bold mb-2 text-black" style={{ fontFamily: 'Source Serif 4' }}>Plus</h3>
               <p className="text-3xl font-bold mb-2">$45</p>
               <p className="text-gray-600 mb-6">/month</p>
               <ul className="space-y-3 mb-8 text-gray-600">
