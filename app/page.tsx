@@ -38,7 +38,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.856-1.487M15 10a3 3 0 11-6 0 3 3 0 016 0zM6 20a9 9 0 0118 0v2h-2.75a4 4 0 00-3.882-2.746A4.175 4.175 0 0015.25 16H6z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Source Serif 4' }}>
+              <h3 className="text-2xl font-bold mb-3 text-black" style={{ fontFamily: 'Source Serif 4' }}>
                 Puts Collaboration First
               </h3>
               <p className="text-gray-600">
@@ -53,7 +53,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Source Serif 4' }}>
+              <h3 className="text-2xl font-bold mb-3 text-black" style={{ fontFamily: 'Source Serif 4' }}>
                 Safe Storage
               </h3>
               <p className="text-gray-600">
@@ -68,7 +68,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Source Serif 4' }}>
+              <h3 className="text-2xl font-bold mb-3 text-black" style={{ fontFamily: 'Source Serif 4' }}>
                 Works Everywhere
               </h3>
               <p className="text-gray-600">
@@ -98,7 +98,7 @@ export default function Home() {
       {/* Customer Quotes Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ fontFamily: 'Source Serif 4' }}>
+          <h2 className="text-3xl font-bold text-center mb-12 text-black" style={{ fontFamily: 'Source Serif 4' }}>
             What Our Customers Say
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -119,13 +119,13 @@ export default function Home() {
       {/* Main Features Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ fontFamily: 'Source Serif 4' }}>
+          <h2 className="text-3xl font-bold text-center mb-12 text-black" style={{ fontFamily: 'Source Serif 4' }}>
             Powerful Features
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Source Serif 4' }}>Advanced Analytics</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black" style={{ fontFamily: 'Source Serif 4' }}>Advanced Analytics</h3>
               <p className="text-gray-600 text-lg">
                 Get detailed insights into your risk analysis with our powerful analytics engine. Track trends and make data-driven decisions.
               </p>
@@ -140,7 +140,7 @@ export default function Home() {
               <span className="text-gray-400">Feature Image</span>
             </div>
             <div className="order-1 md:order-2">
-              <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Source Serif 4' }}>Real-time Collaboration</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black" style={{ fontFamily: 'Source Serif 4' }}>Real-time Collaboration</h3>
               <p className="text-gray-600 text-lg">
                 Work together with your team in real-time. See updates instantly and keep everyone on the same page.
               </p>
@@ -152,7 +152,7 @@ export default function Home() {
       {/* Pricing Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ fontFamily: 'Source Serif 4' }}>
+          <h2 className="text-3xl font-bold text-center mb-12 text-black" style={{ fontFamily: 'Source Serif 4' }}>
             Simple, Transparent Pricing
           </h2>
           
