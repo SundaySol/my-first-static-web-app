@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { Users, Lock, Cloud, CreditCard, Bank, Article, ChatCircle, CurrencyDollar, Envelope } from '@phosphor-icons/react';
 
 export default function Home() {
   return (
@@ -16,13 +17,13 @@ export default function Home() {
       >
         <div className="text-center max-w-3xl mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-6" style={{ fontFamily: 'Source Serif 4' }}>
-            The modern tool for risk management
+            Risk Analysis Made Simple
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            Bowtie360 allows you to analyze and visualize risks in a systematic way - a key component of bow tie analysis.
+            Collaborate with your team securely using the latest HTML5 technology
           </p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg">
-            Start a free trial!
+            Start Free Trial
           </button>
         </div>
       </section>
@@ -34,11 +35,9 @@ export default function Home() {
             {/* Feature 1: Collaboration */}
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.856-1.487M15 10a3 3 0 11-6 0 3 3 0 016 0zM6 20a9 9 0 0118 0v2h-2.75a4 4 0 00-3.882-2.746A4.175 4.175 0 0015.25 16H6z" />
-                </svg>
+                <Users size={64} color="#2563eb" weight="duotone" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-black" style={{ fontFamily: 'Source Serif 4' }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Source Serif 4' }}>
                 Puts Collaboration First
               </h3>
               <p className="text-gray-600">
@@ -49,11 +48,9 @@ export default function Home() {
             {/* Feature 2: Security */}
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
+                <Lock size={64} color="#2563eb" weight="duotone" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-black" style={{ fontFamily: 'Source Serif 4' }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Source Serif 4' }}>
                 Safe Storage
               </h3>
               <p className="text-gray-600">
@@ -64,11 +61,9 @@ export default function Home() {
             {/* Feature 3: Cloud */}
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                </svg>
+                <Cloud size={64} color="#2563eb" weight="duotone" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-black" style={{ fontFamily: 'Source Serif 4' }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'Source Serif 4' }}>
                 Works Everywhere
               </h3>
               <p className="text-gray-600">
@@ -116,7 +111,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Main Features Section */}
+      {/* Main Features Section */}       
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-black" style={{ fontFamily: 'Source Serif 4' }}>
@@ -125,22 +120,22 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-black" style={{ fontFamily: 'Source Serif 4' }}>Advanced Analytics</h3>
+              <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Source Serif 4' }}>Advanced Analytics</h3>
               <p className="text-gray-600 text-lg">
                 Get detailed insights into your risk analysis with our powerful analytics engine. Track trends and make data-driven decisions.
               </p>
             </div>
             <div className="bg-gradient-to-br from-blue-100 to-blue-50 h-64 rounded-lg flex items-center justify-center">
-              <span className="text-gray-400">Feature Image</span>
+              <Article size={48} color="#6b7280" />
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-gradient-to-br from-green-100 to-green-50 h-64 rounded-lg flex items-center justify-center order-2 md:order-1">
-              <span className="text-gray-400">Feature Image</span>
+              <ChatCircle size={48} color="#6b7280" />
             </div>
             <div className="order-1 md:order-2">
-              <h3 className="text-2xl font-bold mb-4 text-black" style={{ fontFamily: 'Source Serif 4' }}>Real-time Collaboration</h3>
+              <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Source Serif 4' }}>Real-time Collaboration</h3>
               <p className="text-gray-600 text-lg">
                 Work together with your team in real-time. See updates instantly and keep everyone on the same page.
               </p>
@@ -159,8 +154,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Evaluation */}
             <div className="border border-gray-300 rounded-lg p-8 hover:shadow-lg transition">
-              <h3 className="text-xl font-bold mb-2 text-black" style={{ fontFamily: 'Source Serif 4' }}>Evaluation</h3>
-              <p className="text-3xl font-bold mb-6 ">Free</p>
+              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Source Serif 4' }}>Evaluation</h3>
+              <p className="text-3xl font-bold mb-6">Free</p>
               <ul className="space-y-3 mb-8 text-gray-600">
                 <li>✓ Up to 3 projects</li>
                 <li>✓ Basic features</li>
@@ -173,8 +168,8 @@ export default function Home() {
 
             {/* Basic */}
             <div className="border-2 border-blue-600 rounded-lg p-8 shadow-lg bg-blue-50">
-              <h3 className="text-xl font-bold mb-2 text-black" style={{ fontFamily: 'Source Serif 4' }}>Basic</h3>
-              <p className="text-3xl font-bold mb-2 ">$36</p>
+              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Source Serif 4' }}>Basic</h3>
+              <p className="text-3xl font-bold mb-2">$36</p>
               <p className="text-gray-600 mb-6">/month</p>
               <ul className="space-y-3 mb-8 text-gray-600">
                 <li>✓ Unlimited projects</li>
@@ -188,8 +183,8 @@ export default function Home() {
 
             {/* Plus */}
             <div className="border border-gray-300 rounded-lg p-8 hover:shadow-lg transition">
-              <h3 className="text-xl font-bold mb-2 text-black" style={{ fontFamily: 'Source Serif 4' }}>Plus</h3>
-              <p className="text-3xl font-bold mb-2 text-black">$45</p>
+              <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Source Serif 4' }}>Plus</h3>
+              <p className="text-3xl font-bold mb-2">$45</p>
               <p className="text-gray-600 mb-6">/month</p>
               <ul className="space-y-3 mb-8 text-gray-600">
                 <li>✓ Everything in Basic</li>
@@ -209,26 +204,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center gap-8">
           <span className="font-semibold text-gray-700">We accept:</span>
           <div className="flex gap-6 flex-wrap justify-center">
-            {/* Stripe */}
-            <svg className="w-12 h-12" viewBox="0 0 24 24" fill="#635BFF">
-              <rect width="24" height="24" rx="4" fill="#635BFF"/>
-            </svg>
-            {/* Visa */}
-            <svg className="w-12 h-12" viewBox="0 0 48 32" fill="#1434CB">
-              <rect width="48" height="32" rx="4" fill="#1434CB"/>
-            </svg>
-            {/* Mastercard */}
-            <svg className="w-12 h-12" viewBox="0 0 48 32" fill="#EB001B">
-              <rect width="48" height="32" rx="4" fill="#EB001B"/>
-            </svg>
-            {/* Amex */}
-            <svg className="w-12 h-12" viewBox="0 0 48 32" fill="#006FCF">
-              <rect width="48" height="32" rx="4" fill="#006FCF"/>
-            </svg>
-            {/* UnionPay */}
-            <svg className="w-12 h-12" viewBox="0 0 48 32" fill="#E60012">
-              <rect width="48" height="32" rx="4" fill="#E60012"/>
-            </svg>
+            {/* Using Phosphor icons for payment methods */}
+            <CreditCard size={48} color="#635bff" />
+            <Bank size={48} color="#1434cb" />
+            <CurrencyDollar size={48} color="#eb001b" />
+            <CreditCard size={48} color="#006fcf" />
+            <Bank size={48} color="#e60012" />
           </div>
         </div>
       </section>
@@ -268,8 +249,9 @@ export default function Home() {
             />
             <button 
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-semibold"
+              className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-semibold flex items-center justify-center gap-2"
             >
+              <Envelope size={20} />
               Send Message
             </button>
           </form>
