@@ -80,12 +80,24 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12 text-black" style={{ fontFamily: 'Source Serif 4' }}>
             Trusted by Leading Companies
           </h2>
-          <div className="flex justify-center gap-8 overflow-x-auto pb-4">
-            {['Client 1', 'Client 2', 'Client 3', 'Client 4', 'Client 5'].map((client, i) => (
-              <div key={i} className="flex-shrink-0 w-40 h-20 bg-white rounded border border-gray-300 flex items-center justify-center text-gray-500 font-semibold">
-                {client}
-              </div>
-            ))}
+
+          <div className="relative overflow-hidden">
+            <div className="flex items-center gap-8 marquee">
+              {[
+                'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon',
+                'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa'
+              ].concat([
+                'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon',
+                'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa'
+              ]).map((client, i) => (
+                <div
+                  key={i}
+                  className="flex-shrink-0 w-40 h-20 bg-white rounded border border-gray-300 flex items-center justify-center text-gray-500 font-semibold"
+                >
+                  {client}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
