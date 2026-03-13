@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Users, Lock, Cloud, CreditCard, Bank, Article, ChatCircle, CurrencyDollar, Envelope } from '@phosphor-icons/react';
+import { Users, Lock, Cloud, CreditCard, Bank, Article, ChatCircle, CurrencyDollar, Envelope, Stripe, Visa, Mastercard, AmericanExpress, UnionPay } from '@phosphor-icons/react';
 
 export default function Home() {
   return (
@@ -216,12 +216,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center gap-8">
           <span className="font-semibold text-gray-700">We accept:</span>
           <div className="flex gap-6 flex-wrap justify-center">
-            {/* Using Phosphor icons for payment methods */}
-            <CreditCard size={48} color="#635bff" />
-            <Bank size={48} color="#1434cb" />
-            <CurrencyDollar size={48} color="#eb001b" />
-            <CreditCard size={48} color="#006fcf" />
-            <Bank size={48} color="#e60012" />
+            <Stripe size={48} color="#635bff" />
+            <Visa size={48} color="#1434cb" />
+            <Mastercard size={48} color="#eb001b" />
+            <AmericanExpress size={48} color="#006fcf" />
+            <UnionPay size={48} color="#e60012" />
           </div>
         </div>
       </section>

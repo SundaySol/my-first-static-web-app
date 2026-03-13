@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BowTie360 - Risk Analysis & Collaboration Tool",
+  title: "Bowtie360 - Risk Analysis & Collaboration Tool",
   description: "Web-based risk analysis and collaboration platform with 256-bit encryption",
 };
 

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4" style={{ fontFamily: 'Source Serif 4' }}>
-              BowTie360
+              Bowtie360
             </h3>
             <p className="text-gray-400">Web-based risk analysis and collaboration platform.</p>
           </div>
